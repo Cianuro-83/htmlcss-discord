@@ -268,7 +268,8 @@ p.browser {
 .s3-bg,
 .s5-bg {
   min-height: 100px;
-  padding: 30px 0px;
+  padding: 100px 0px;
+  background-color: white;
 }
 .cols3a {
   min-height: 300px;
@@ -279,7 +280,8 @@ p.browser {
 
 .s5 .container {
   min-height: 300px;
-  padding: 30px;
+  padding: 100px;
+  text-align: center;
 }
 footer {
   background-color: black;
