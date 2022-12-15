@@ -132,6 +132,7 @@ footer.debug {
 .row {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .col {
   padding: 10px;
@@ -336,5 +337,6 @@ footer {
   background-color: #7289d9;
   padding: 20px;
   border-radius: 25px;
+  margin-top: 10px;
 }
 .brand/* FINE REGOLE PROGETTO */;
