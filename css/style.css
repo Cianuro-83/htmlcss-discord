@@ -131,7 +131,7 @@ footer.debug {
 /* REGOLE DI PROGETTO */
 .row {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .col {
@@ -296,6 +296,7 @@ footer {
 }
 .fc1 {
   border-bottom: 1px solid #4f5d8c;
+  align-items: flex-start;
 }
 .colf1a,
 .colf1b,
