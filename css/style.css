@@ -8,7 +8,11 @@
 img {
   max-width: 100%;
 }
-
+ul,
+ol,
+menu {
+  list-style: none;
+}
 .container {
   max-width: 900px;
   margin: 0 auto;
@@ -126,7 +130,7 @@ footer.debug {
 /* REGOLE DI PROGETTO */
 .row {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .col {
   padding: 10px;
@@ -153,12 +157,30 @@ footer.debug {
   flex-basis: 100%;
   align-items: center;
 }
+
+header {
+  background-color: #2f5ee8;
+  padding: 10px;
+}
+header .container {
+  color: white;
+}
 .link {
   text-align: center;
   align-items: center;
 }
-.login {
-  text-align: right;
+ul.menu li {
+  display: inline;
+  padding: 15px;
+}
+.accedi {
+  display: inline-block;
+  text-align: center;
+  width: 90px;
+  background-color: white;
+  color: black;
+  border-radius: 25%;
+  padding: 10px;
   align-items: center;
 }
 
