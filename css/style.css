@@ -175,15 +175,11 @@ ul.menu li {
   display: inline;
   padding: 15px;
 }
-.accedi {
-  display: inline-block;
-  text-align: center;
-  width: 90px;
+.entra {
   background-color: white;
-  color: black;
-  border-radius: 25%;
-  padding: 10px;
-  align-items: center;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
 }
 
 .s1-bg {
@@ -206,15 +202,6 @@ ul.menu li {
   display: inline;
   padding: 15px;
 }
-.accedi {
-  display: inline-block;
-  text-align: center;
-  width: 90px;
-  background-color: white;
-  color: black;
-  border-radius: 25%;
-  padding: 10px;
-}
 
 .disclaimer {
   color: white;
@@ -227,19 +214,21 @@ p.disclaimer {
   font-weight: lighter;
   font-size: 19px;
 }
-p.download,
-p.browser {
-  display: inline-block;
+.download,
+.browser {
   padding: 20px;
-  margin: 30px 20px;
-  border-radius: 25%;
+  margin-top: 30px;
+  border-radius: 25px;
+  border: none;
 }
-p.download {
+.download {
   background-color: white;
+  margin-right: 10px;
 }
-p.browser {
+.browser {
   color: white;
   background-color: black;
+  margin-left: 10px;
 }
 .title {
   font-weight: bold;
