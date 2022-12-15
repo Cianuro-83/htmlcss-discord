@@ -282,6 +282,21 @@ p.browser {
   min-height: 300px;
   padding: 100px;
   text-align: center;
+  font-size: 1px;
+}
+.text-calltodownload {
+  background-image: url(../img/stars.svg);
+  background-position: center;
+  text-align: center;
+  font-weight: 900;
+  font-size: 28px;
+}
+.scarica-per-mac {
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #7289d9;
+  color: white;
+  border-radius: 25px;
 }
 footer {
   background-color: black;
